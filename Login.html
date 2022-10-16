@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("meherab.jpg");
+    background-size: cover;
+    }
+    .login-box{
+        width: 280px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+    }
+    .login-box h1{
+        float: left;
+        font-size: 40px;
+        border-bottom: 6px solid #4caf50;
+        margin-bottom: 50px;
+        padding: 13px 0;
+    }
+    .textbox{
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        margin: 8px 0;
+        border-bottom: 2px solid #4caf50;
+    }
+    .textbox i{
+        width: 26px;
+        float: left;
+        text-align: center;
+    }
+    .textbox input{
+        border: none;
+        outline: none;
+        background: none;
+        color: #ffffff;
+        font-size: 18px;
+        width: 80%;
+        margin: 0 10px;
+    }
+    .button{
+        width: 100%;
+        background: none;
+        border: 2px solid #4caf50;
+        color: white;
+        padding: 5px;
+        font-size: 25px;
+        cursor: pointer;
+        margin: 12px 0;
+        font-style: italic;
+    }
+    .reg h1{
+        color: #4caf50;
+        font-size: 150%;
+        margin: 0;
+        padding-left:30px;
+        border-bottom: 3px solid #4caf50;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(248, 248, 248);
+        opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgb(255, 255, 255);
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+        color: rgb(255, 255, 255);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The traveler</title>
+    <!--favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="Images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="Images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/61e5a4b07f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Username" id="mk" class="mk">
+            
+        </div>
+        <div class="textbox">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" placeholder="Password" id="mk" class="mk">
+
+        </div>
+        <div>
+            <a href="home.html">
+            <input type="button" class="button" value="sign in">
+        </a>
+        </div>
+        <div class="reg">
+            <a href="Registration.html">
+            <h1>Or Registration</h1>
+        </a>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
