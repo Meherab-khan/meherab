@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+		  background-image: url('meherabb.jpg');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size:100%;
+		}
+        .link{
+			text-align: center;
+			font-size:400%; 
+		}
+		.pic{
+			text-align:center;
+        }
+        img{
+			width:15%;
+        }
+        h2{
+            text-align: center;
+            font-size:250%;
+            color: rgb(228, 144, 32);
+        }
+        input[type=text]{
+            width: 25%;
+            height:20;
+            font-size:110%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 4px;
+            background-color:rgb(75, 230, 227);
+        }
+        input[type=Address]{
+            width: 20%;
+            height:20;
+            font-size:110%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 4px;
+            background-color:rgb(240, 168, 67);
+        }
+        input[type=Email]{
+            width: 20%;
+            height:20;
+            font-size:110%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 4px;
+            background-color:rgb(240, 168, 67);
+        }
+        input[type=date]{
+            width: 20%;
+            height:20;
+            font-size:110%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 4px;
+            background-color:rgb(240, 168, 67);
+        }
+        input[type=number]{
+            width: 20%;
+            height:20;
+            font-size:110%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 4px;
+            background-color:rgb(240, 168, 67);
+        }
+        input[type=file]{
+            font-size:110%;
+            background-color:rgb(98, 231, 227);
+        }
+        button[type=submit]{
+            width: 30%;
+            height:110%;
+            font-size:120%;
+            border: 2px solid rgb(1, 1, 1);
+            border-radius: 6px;
+            background-color:rgb(0, 255, 229);
+        }
+        select{
+            width: 25%;
+            padding: 5px 15px;
+            margin: 4px 0;
+            border-radius: 4px;
+            background-color: aqua;
+            font-size:110%;
+        }
+    </style>
+	<head>
+	    <title>Infra Polytechnic Institute</title>
+	</head>
+	    <body>
+            <h1 class="link"><a href="https://www.infra.edu.bd/" target="_blank">Infra Polytechnic Institute</a></h1>
+            <P class="pic"><img src="khan.png" alt="munna"></P>
+            <h2><u>Registration form</u></h2>
+            <form>
+                <div>
+                    <label for="fullname" style="font-size:130%;">Student Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                </div><br>
+                <div class="father name">
+                    <label for="Father name" style="font-size:130%;">Father's Name:</label>
+                    <input type="text" name="username" id="fathersname" placeholder="Father's Full Name">
+                </div><br>
+                <div class="form-item">
+                    <label for="username" style="font-size:130%;">Mother's Name:</label>
+                    <input type="text" name="username" id="mothersname" placeholder="Mother's Full Name">
+                </div><br>
+                <div>
+                    <label for="Email" style="font-size:130%;">Email:</label>
+                    <input type="Email" name="Email" id="Email" placeholder="Email Address">
+                </div><br>
+                <div>
+                    <label for="Address" style="font-size:130%;">Address: </label>
+                    <input type="Address" name="Address" id="Address" placeholder="Address">
+                </div><br>
+                <div>
+                    <label for="DBO" style="font-size:130%;">Date of Birth:</label>
+                    <input type="date" name="DBO" id="DBO" placeholder="Date of Birth">
+                </div><br>
+                <div>
+                    <label for="Contact NO" style="font-size:130%;">Contact NO:</label>
+                    <input type="number" name="Contact NO" id="Contact NO" placeholder="xxxxxxxxxxx">
+                </div><br>
+                <div style="font-size:130%">
+                    <label for="Gender">Gender: </label>
+                    <input type="checkbox" name="Gender" id="Gender">Male
+                    <input type="checkbox" name="Gender" id="Gender">Female
+                    <input type="checkbox" name="Gender" id="Gender">Others
+                </div><br>
+                <div style="font-size:130%">
+                    <label for="Religion">Religion:</label>
+                    <input type="checkbox" name="Religion-1" id="Religion">Islam
+                    <input type="checkbox" name="Religion-2" id="Religion">Hindu
+                </div><br>
+                <div style="font-size:130%">
+                    <label for="Previous course">Previous course:</label>
+                    <input type="checkbox" name="course-1" id="course-1">HSC
+                    <input type="checkbox" name="course-2" id="course-2">SSC
+                </div><br>
+                <div>
+                    <label For="Department" style="color: Black; font-size: 130%;"><b>Department:</b></label>
+                    <select name="Department">
+                        <option value="Computer">Computer</option>
+                        <option value="Electronisc">Electronisc</option>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Civil">Civil</option>
+                        <option value="Marin">Marin</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Surveying">Surveying</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label For="Start from" style="color: Black; font-size: 130%;"><b>Start from:</b></label>
+                    <select name="Start from">
+                        <option value="1th Semester">1th Semester</option>
+                        <option value="4th Semester">4th Semester</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="fullname" style="color: Black; font-size: 130%;">Student Image:</label>
+                    <input type="file" name="studentimage" id="studentimage">
+                </div><br>
+            <div style="text-align:center;">
+            <button type="submit">Submit</button>
+            </div><br>
+            </form>
+	    </body>
+</html>
+<i class="fa-solid fa-user"></i>
